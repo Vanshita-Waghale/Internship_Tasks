@@ -7,4 +7,4 @@ if __name__ == '__main__':
     for _ in range(n): 
         country = input() 
         countries.add(country) 
-    print(len(countries))
+    print(len(countries)) 
