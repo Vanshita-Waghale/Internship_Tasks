@@ -1,7 +1,6 @@
 # Python If-Else
 # https://www.hackerrank.com/challenges/py-if-else/problem
 # Code
-
 n = int(input().strip())
     if n % 2 != 0:
         print("Weird")
