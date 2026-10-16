@@ -1,14 +1,14 @@
-# Symmetric Difference
-# https://www.hackerrank.com/challenges/symmetric-difference/problem
+# Introduction to Sets
+# https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
+# Code
+def average(array):
+    # your code goes here
+    distinct_heights = set(array)
+    return round(sum(distinct_heights) / len(distinct_heights), 3)
+
 
 if __name__ == '__main__':
-    m = int(input())
-    set_a = set(map(int, input().split()))
-
     n = int(input())
-    set_b = set(map(int, input().split()))
-
-    result = set_a.symmetric_difference(set_b)
-
-    for num in sorted(result):
-        print(num)
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
