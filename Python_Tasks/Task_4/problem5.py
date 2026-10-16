@@ -1,0 +1,6 @@
+# Python Print
+# https://www.hackerrank.com/challenges/python-print/problem
+# Code
+n = int(input())
+    for i in range(1, n + 1):
+        print(i, end="")
