@@ -1,0 +1,9 @@
+#Problem: Python: Division
+#HackerRank Link: https://www.hackerrank.com/challenges/python-division/problem
+#Code:
+
+a = int(input())
+b = int(input())
+
+print(a // b)
+print(a / b)
